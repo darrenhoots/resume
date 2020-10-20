@@ -1,0 +1,7 @@
+version: "3"
+services:
+  resume-app:
+    image: resume-app
+    stdin_open: true
+    ports:
+      - "3000:3000"
